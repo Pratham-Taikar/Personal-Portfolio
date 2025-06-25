@@ -88,5 +88,3 @@ git clone https://github.com/yourusername/portfolio.git
 
 This project is open-source and free to use.
 Built with ❤️ by **Pratham Taikar**
-
-```
