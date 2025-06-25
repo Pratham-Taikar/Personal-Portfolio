@@ -10,7 +10,7 @@ Welcome to my personal developer portfolio website — a fully responsive, dark-
 
 ## 🌐 Live Demo
 
-👉 [**Check it Out Here**](#) *(replace with your live link once deployed)*
+👉 [**Check it Out Here**](#) 
 
 ---
 
@@ -89,11 +89,4 @@ git clone https://github.com/yourusername/portfolio.git
 This project is open-source and free to use.
 Built with ❤️ by **Pratham Taikar**
 
-```
-
----
-
-✅ Save this as `README.md` in your project root — you’ll have a clean, organized, pro-level portfolio description for your GitHub repo.  
-
-Want me to generate a matching **deploy-ready Netlify or Vercel config** for this too? ⚡
 ```
