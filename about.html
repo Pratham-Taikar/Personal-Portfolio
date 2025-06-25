@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Pratham Portfolio</title>
+  <link rel="stylesheet" href="/css/responsive-style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    .about-section {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .about-section p {
+      margin-top: 20px;
+      line-height: 1.8;
+      color: #ccc;
+      font-size: 17px;
+    }
+
+    .tech-stack {
+      margin-top: 60px;
+    }
+
+    .tech-stack h2 {
+      margin-bottom: 30px;
+    }
+
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 25px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 20px;
+      backdrop-filter: blur(3px);
+      box-shadow: inset 0 0 20px #00eaff11;
+    }
+
+    .tech-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 18px;
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+    .tech-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 0 20px #00eaff44;
+    }
+
+    .tech-card h3 {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #fff;
+    }
+
+    .tech-icon {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    @media(max-width: 600px) {
+      .about-section {
+        padding: 30px 20px;
+      }
+
+      .tech-grid {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <nav>
+      <h2 class="logo">Pratham Taikar<span>.</span></h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="about-section fade-up">
+      <h1 class="glow-text">About <span>Me</span></h1>
+      <p>
+        Hey! I'm <b>Pratham Taikar</b>, a passionate full-stack developer constantly exploring new web technologies. I
+        enjoy turning complex problems into simple, beautiful, and intuitive designs.
+      </p>
+
+      <div class="tech-stack">
+        <h2 class="glow-text">My <span>Tech Stack</span></h2>
+
+        <div class="tech-grid">
+          <div class="tech-card fade-up">
+            <div class="tech-icon">🌐</div>
+            <h3>HTML5</h3>
+          </div>
+
+          <div class="tech-card fade-up">
+            <div class="tech-icon">🎨</div>
+            <h3>CSS3</h3>
+          </div>
+
+          <div class="tech-card fade-up">
+            <div class="tech-icon">⚙️</div>
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="tech-card fade-up">
+            <div class="tech-icon">🛠️</div>
+            <h3>Node.js</h3>
+          </div>
+
+          <div class="tech-card fade-up">
+            <div class="tech-icon">📦</div>
+            <h3>MongoDB</h3>
+          </div>
+
+          <div class="tech-card fade-up">
+            <div class="tech-icon">🔥</div>
+            <h3>Firebase</h3>
+          </div>
+
+          <div class="tech-card fade-up">
+            <div class="tech-icon">⚛️</div>
+            <h3>React.js</h3>
+          </div>
+
+          <div class="tech-card fade-up">
+            <div class="tech-icon">☁️</div>
+            <h3>Cloud APIs</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
